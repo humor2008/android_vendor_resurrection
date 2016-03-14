@@ -1,11 +1,25 @@
 
-  Resurrection Remix OS - Marshmallow
+# Resurrection Remix OS - Marshmallow
 
   Source Code: http://github.com/ResurrectionRemix
-  Website: http://www.resurrectionremix.com
+  G+: https://plus.google.com/communities/109352646351468373340
   For extended changelog, track github activities
 
-The Changelog
+# The Changelog
+
+# ResurrectionRemix - v5.6.5 - 20160313 #Marshmallow 6.0.1_r22
+
+- Android 6.0.1_r17 -.6.0.1_r22
+- SystemUI: Optimizations and cleanups
+- Add needed callbacks to refresh statusbar view and update contents
+- clean up do not stress (recreate statusbar)
+- Prevent to fix statusbar lag issues
+- Revert pie control (deprecated and breaking things) thanks to varun date
+- Revert edge gesture service (deprecated and breaking things)
+- Fix system ui NPE when device rotated
+- Don't refresh ui when screen off
+- Fixed lockscreen clock and date color not updating after disable refresh ui when screen is off
+- Clean up scrollbars (deprecated)
 
 # ResurrectionRemix - v5.6.5 - 20160311 #Marshmallow 6.0.1_r17
 
