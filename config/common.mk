@@ -80,6 +80,11 @@ PRODUCT_COPY_FILES += \
 # KernelAdiutor
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+    
+    
+# Audio FX
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk
 
 # RomStats
 #PRODUCT_COPY_FILES += \
@@ -174,7 +179,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    AudioFX \
     CMFileManager \
     Eleven \
     LockClock \
@@ -261,7 +265,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION = 5.6.6
+PRODUCT_VERSION = 5.6.7
     CM_VERSION := ResurrectionRemix-M-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
 
 PRODUCT_PROPERTY_OVERRIDES += \
