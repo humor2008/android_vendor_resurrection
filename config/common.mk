@@ -182,7 +182,6 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     OmniSwitch \
     ExactCalculator \
-    ResurrectionOTA \
     ExactCalculator \
     LiveLockScreenService \
     WeatherProvider \
