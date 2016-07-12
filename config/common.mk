@@ -81,10 +81,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
 
-# RomStats
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/ResurrectionStats/ResurrectionStats.apk:system/app/ResurrectionStats/ResurrectionStats.apk
-
 # Busybox
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/xbin/busybox:system/xbin/busybox
@@ -186,6 +182,7 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     OmniSwitch \
     ExactCalculator \
+    ResurrectionStats \
     ExactCalculator \
     LiveLockScreenService \
     WeatherProvider \
@@ -265,7 +262,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION = 5.7.0
+PRODUCT_VERSION = 5.7.1
     CM_VERSION := ResurrectionRemix-M-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
 
 PRODUCT_PROPERTY_OVERRIDES += \
